@@ -1,0 +1,9 @@
+﻿  TetrisImplementation.cpp
+c:\users\a1cla\desktop\current\project_tetris\sfml_project\tetrisimplementation.cpp(17): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\a1cla\desktop\current\project_tetris\sfml_project\tetrisimplementation.cpp(66): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\a1cla\desktop\current\project_tetris\sfml_project\tetrisimplementation.cpp(138): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\a1cla\desktop\current\project_tetris\sfml_project\tetrisimplementation.cpp(150): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\a1cla\desktop\current\project_tetris\sfml_project\tetrisimplementation.cpp(159): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\a1cla\desktop\current\project_tetris\sfml_project\tetrisimplementation.cpp(269): warning C4305: '=': truncation from 'double' to 'float'
+  SFML_Project.vcxproj -> C:\Users\a1cla\Desktop\Current\Project_Tetris\x64\Debug\SFML_Project.exe
+  SFML_Project.vcxproj -> C:\Users\a1cla\Desktop\Current\Project_Tetris\x64\Debug\SFML_Project.pdb (Partial PDB)
