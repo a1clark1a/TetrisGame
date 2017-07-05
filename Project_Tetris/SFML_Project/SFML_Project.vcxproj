@@ -69,26 +69,29 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\aicaoc\Desktop\New folder\Project_Tetris\SFML_Project\SFML-2.4.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\aicaoc\Desktop\New folder\Project_Tetris\SFML_Project\SFML-2.4.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\aicaoc\Desktop\New folder\Project_Tetris\SFML_Project\SFML-2.4.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\aicaoc\Desktop\New folder\Project_Tetris\SFML_Project\SFML-2.4.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\lib;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\aicaoc\Desktop\New folder\Project_Tetris\SFML_Project\SFML-2.4.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\aicaoc\Desktop\New folder\Project_Tetris\SFML_Project\SFML-2.4.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Users\aicaoc\Desktop\New folder\Project_Tetris\SFML_Project\SFML-2.4.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\aicaoc\Desktop\New folder\Project_Tetris\SFML_Project\SFML-2.4.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\lib;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -96,7 +99,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\a1cla\Documents\Visual Studio 2015\Projects\SFML_Project\SFML_Project\SFML-2.4.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -111,6 +114,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -124,7 +128,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\a1cla\Documents\Visual Studio 2015\Projects\SFML_Project\SFML_Project\SFML-2.4.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\a1cla\Desktop\Final\Project_Tetris\SFML_Project\SFML-2.4.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

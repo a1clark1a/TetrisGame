@@ -7,10 +7,14 @@ int main()
 {
 	srand(static_cast<unsigned int>(time(0)));
 	sf::RenderWindow window(sf::VideoMode(420, 580), "Tetris Game!");
-	Tetris game;
+
+	Tetris game; // create a tetris game called game
+
 
 	float timer = 0;
 	sf::Clock clock;
+
+
 	while (window.isOpen())
 	{
 		//sf::Time dt = clock.restart();
@@ -37,6 +41,8 @@ int main()
 			
 		}
 		game.Draw(&window);
+		
+
 		window.display();
 	}
 

@@ -1,0 +1,6 @@
+Score System
+
+1 line = 100 pts;
+2 line = 200 pts;
+3 line = 400 pts;
+4 lines = 800 pts; 
